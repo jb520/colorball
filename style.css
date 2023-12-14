@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+  background-color: #fffff2;
+  font-family: 'Varela Round', sans-serif;
+  color: #fffff2;
+  text-shadow: #ffffe3 1px 0 7px;
+}
+
+.container, .button-container {
+  width: 50%;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  position: relative;
+  font-size: 125px; 
+  padding: 25px;
+  width: 100%;
+  text-align: center;
+  border: solid 0px;
+  border-radius: 100px;
+}
+
+.letter-1 {
+  left: 80px;
+  background-color: hsl(33, 81%, 66%, 0.75);
+}
+
+.letter-2 {
+  left: 40px;
+  background-color: hsl(18, 95%, 68%, 0.75);
+}
+
+.letter-3 {
+  background-color: hsl(354, 81%, 65%, 0.75);
+}
+
+.letter-4 {
+  right: 40px;
+  background-color: hsl(327, 58%, 55%, 0.75);
+}
+
+.letter-5 {
+  right: 80px;
+  background-color: hsl(287, 82%, 28%, 0.75);
+}
+
+.txt-container {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    font-size: 0.75em;
+    color: hsl(354, 81%, 65%, 0.75);
+}
+
+button {
+  width: 155px;
+  height: 60px;
+  font-size: 30px;
+  margin: 20px;
+  font-family: 'Varela Round', sans-serif;
+  background-color: #fffff2;
+  color: hsl(354, 81%, 65%, 0.75);
+  border: solid 1px;
+  border-color: hsl(354, 81%, 65%);
+  border-radius: 20px;
+}
+
+button:hover {
+  color: #fffff2;
+  text-shadow: #ffffe3 1px 0 7px;
+  border: none;
+  box-shadow: hsl(354, 81%, 65%, 0.75) 1px 0 7px;
+}
+
+.btn-1:hover {
+  background-color: hsl(18, 95%, 68%, 0.75);
+  transition: 1s;
+}
+
+.btn-2:hover {
+  background-color: hsl(327, 58%, 55%, 0.75);
+  transition: 1s;
+}
+
+.btn-3:hover {
+  background-color: hsl(287, 82%, 28%, 0.75);
+  transition: 1s;
+}
